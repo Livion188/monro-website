@@ -1,8 +1,9 @@
+import image01 from "../src/assets/1000574310.jpg"
 function Products() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
       < div class="box p-4 bg-olive-800 text-white rounded-lg w-64 h-fit shadow-md border-4">
-        <img src="../src/assets/1000574310.jpg" alt="" />
+        <img src={image01} alt="" />
         <p class="text-white text-center font-bold text-xs">Our style<i class="bi bi-balloon-heart"></i></p>
     </div>
 
